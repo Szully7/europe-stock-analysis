@@ -1,7 +1,7 @@
 # European Stock Risk-Return Analysis 🇪🇺
 
 ## 1. Problem Definition
-This project explores the fundamental financial principle of the risk-return tradeoff within the European equity market. Specifically, it investigates whether higher volatility (risk) in leading European stocks (ASML, SAP, LVMH) consistently correlates with higher daily returns.
+This project investigates the risk-return tradeoff of three major European stocks (ASML, SAP, LVMH) using Python. It aims to help beginner investors understand how different sectors (Semiconductors, Software, Luxury) perform in terms of volatility and daily growth.
 
 ## 2. Target User
 - **Beginner Investors:** Looking to understand how to diversify across different European sectors.
@@ -30,11 +30,12 @@ The analysis follows a robust data pipeline:
 
 ## 6. AI Disclosure & Attribution (Academic Integrity)
 - **Tool:** Gemini (Google), accessed 13 April 2026.
-- **Role of AI:** Used to generate the initial structure of the Python notebook and the template for this README.
+- **Role of AI:** Used to generate the initial structure of the Python notebook.
 - **Student Contribution:** - Defined the specific European stock tickers and business context.
   - Debugged the `yfinance` data calling function.
   - Interpreted the statistical results to provide sector-specific insights (Tech vs Luxury).
   - Designed the user-facing README structure to ensure clarity for beginner investors.
+  - Provided the financial interpretation of the results.
 
 ## 7. How to Run
 1. Clone this repo: `git clone https://github.com/[Your-Username]/europe-stock-analysis.git`
@@ -42,4 +43,4 @@ The analysis follows a robust data pipeline:
 3. Open `notebook.ipynb` and Run All cells.
 
 ---
-*Note: This is a student project for ACC102. Not financial advice.*
+*Note: This is a student project for XJTLU-ACC102. Not financial advice.*
