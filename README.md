@@ -14,6 +14,12 @@ This project investigates the risk-return tradeoff of three major European stock
   - **SAP** (Germany, Software) - GVKEY: 101375
   - **LVMH** (France, Consumer Luxury) - GVKEY: 100411
 - **Period:** 2024 - 2025 (Full historical cycle)
+#### Data Dictionary
+| Variable | Description | Definition |
+| :--- | :--- | :--- |
+| `gvkey` | Global Company Key | Unique institutional identifier for the specific stock. |
+| `datadate` | Trading Date | The specific date of the market session. |
+| `prccd` | Price Close Daily | The daily closing price of the security in its local currency. |
 
 ## 4. Methodology & Python Workflow
 The analysis follows a robust, industry-standard data pipeline:
