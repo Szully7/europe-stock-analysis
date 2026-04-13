@@ -40,7 +40,7 @@ The analysis follows a robust, industry-standard data pipeline:
   - Defined the European business context and performed the final financial interpretation of results.
 
 ## 7. How to Run
-1. Clone this repo: `git clone https://github.com/Szully/europe-stock-analysis.git`
+1. Clone this repo: `git clone [https://github.com/Szully7/europe-stock-analysis.git]
 2. Install dependencies: `pip install pandas numpy matplotlib wrds`
 3. Open `notebook.ipynb`, enter your **WRDS username** when prompted, and Run All cells.
 
