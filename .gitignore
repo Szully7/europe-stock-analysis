@@ -1,0 +1,18 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment (if you use one)
+venv/
+env/
+.env
+
+# MacOS system files
+.DS_Store
+
+# WRDS local connection cache (to protect credentials)
+.wrds_cache
