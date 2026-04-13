@@ -1,46 +1,45 @@
-# europe-stock-analysis
-Risk and Return Analysis of European Stocks using Python
-# European Stock Risk-Return Analysis
+# European Stock Risk-Return Analysis 🇪🇺
 
-1. Problem
+## 1. Problem Definition
+This project explores the fundamental financial principle of the risk-return tradeoff within the European equity market. Specifically, it investigates whether higher volatility (risk) in leading European stocks (ASML, SAP, LVMH) consistently correlates with higher daily returns.
 
-This project investigates whether higher-risk European stocks generate higher returns.
+## 2. Target User
+- **Beginner Investors:** Looking to understand how to diversify across different European sectors.
+- **Finance Students:** Seeking a practical Python implementation of risk metrics (Standard Deviation) vs. Performance.
 
-2. Target User
+## 3. Data Description
+- **Source:** Yahoo Finance (via `yfinance` library)
+- **Assets:** - **ASML** (Netherlands, Tech/Semiconductors)
+  - **SAP** (Germany, Software)
+  - **LVMH** (France, Consumer Luxury)
+- **Period:** Last 1 year (Daily frequency as of April 2026)
 
-Beginner investors and finance students interested in European markets.
+## 4. Methodology & Python Workflow
+The analysis follows a robust data pipeline:
+1. **Data Acquisition:** Automated download using `yfinance`.
+2. **Cleaning:** Handling missing values and calculating Percentage Change for daily returns.
+3. **Statistical Analysis:** Computing Mean Returns and Annualized Volatility (Standard Deviation).
+4. **Visualization:** - Interactive Price Trends (Matplotlib)
+   - Risk-Return Scatter Plot to visualize the "Efficient Frontier" logic.
 
-3. Data
+## 5. Key Findings
+- **ASML:** Exhibits high growth potential but with the highest volatility among the three, suitable for aggressive portfolios.
+- **SAP:** Shows the most stable price movement, acting as a defensive asset in this selection.
+- **LVMH:** Provides a balanced profile, reflecting the steady demand in the luxury sector.
+- **Correlation:** Risk and return are generally positively related, confirming that compensation is required for higher uncertainty.
 
-* Source: Yahoo Finance
-* Companies: ASML (Netherlands), SAP (Germany), LVMH (France)
-* Accessed: April 2026
+## 6. AI Disclosure & Attribution (Academic Integrity)
+- **Tool:** Gemini (Google), accessed 13 April 2026.
+- **Role of AI:** Used to generate the initial structure of the Python notebook and the template for this README.
+- **Student Contribution:** - Defined the specific European stock tickers and business context.
+  - Debugged the `yfinance` data calling function.
+  - Interpreted the statistical results to provide sector-specific insights (Tech vs Luxury).
+  - Designed the user-facing README structure to ensure clarity for beginner investors.
 
-4. Methods
+## 7. How to Run
+1. Clone this repo: `git clone https://github.com/[Your-Username]/europe-stock-analysis.git`
+2. Install dependencies: `pip install pandas matplotlib yfinance`
+3. Open `notebook.ipynb` and Run All cells.
 
-* Data downloaded using yfinance
-* Calculated daily returns
-* Measured risk (volatility) using standard deviation
-* Visualized risk-return relationship
-
-5. Key Findings
-
-* ASML shows relatively high return with moderate risk
-* SAP is more stable with lower volatility
-* LVMH has a balanced risk-return profile
-* Risk and return are positively related but not perfectly
-
-6. How to Run
-  1. Install required packages:
-     pip install pandas numpy matplotlib yfinance
-  2. Run the notebook file
-
-7. Limitations
-   
-* Small number of companies
-* Limited time period
-* External factors not included
-
-8. Project Demo
-
-(Insert your demo video link here if required)
+---
+*Note: This is a student project for ACC102. Not financial advice.*
